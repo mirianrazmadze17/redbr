@@ -9,13 +9,15 @@ console.log(submit1);
 let emailInput = document.getElementById("email");
 let numberInput = document.getElementById("number");
 let dateInput = document.getElementById("date");
+$("#done").click(() => {
+  window.location.href = "./thanks.html";
+});
 console.log(nameValue.length);
 submit1.addEventListener("click", (e) => {
   e.preventDefault;
   if (
     $("#name").val().length &&
-    emailInput.value.substr(-12) == "@redberry.ge" &&
-    numberInput.value.length == 9
+    emailInput.value.substr(-12) == "@redberry.ge"
   ) {
     window.location.href = "./register2.html";
   }

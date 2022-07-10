@@ -7,6 +7,12 @@
 .wrapper {
   display: flex;
 }
+.tick.active {
+  display: flex;
+}
+#tick2.active {
+  display: flex;
+}
 .reg2wrap {
   display: flex;
   align-items: center;
