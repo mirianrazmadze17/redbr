@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
-    <script src="./app.js" defer></script>
+  
     <title></title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   </head>
   <body>
     <div class="wrap">
@@ -65,27 +65,27 @@ look for a better one.”</h1>
         <h1>Personal information</h1>
         <span>This is basic informaton fields</span>
       </div>
-   
       <div class="form-groups">
         <div class="form-group">
-      <input type="text" name="" id="" class="inp" placeholder="Name"><img src="./images/tck.png">
+      <input type="text" name="" id="name" class="inp" placeholder="Name" required><img src="./images/tck.png" >
       </div>
       <div class="form-group">
-      <input type="email" name="" id=""class="inp" placeholder="Email adress"><img src="./images/tck.png">
+      <input type="email" name="" id="email"class="inp" placeholder="Email adress" required><img src="./images/tck.png">
       </div>
       <div class="form-group">
-      <input type="number" name="" id=""class="inp" placeholder="Phone Number"><img src="./images/tck.png">
+      <input type="number" name="" id="number"class="inp" placeholder="Phone Number" required><img src="./images/tck.png">
       </div>
       <div class="form-group">
-      <input type="date" name="" id=""class="inp" placeholder="Date">
+      <input type="date" name="" id="date"class="inp" placeholder="Date" required>
       </div>
     </div>
     <div class="back-btn">
       <a href="./index.html"><button class="btn-back">Back</button></a>
-      <a href="./register2.html"><button class="btn next">Next <img src="./images/Vector 2.png"></button></a>
+      <button class="btn next" id="submit1">Next <img src="./images/Vector 2.png"></button>
     </div>
     </div>
     
     </div>
+      <script src="./app.js" defer></script>
   </body>
 </html>
